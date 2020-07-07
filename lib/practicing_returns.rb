@@ -7,6 +7,7 @@ def hello(array)
     collection << yield(array[i])
     i += 1
   end
+  collection
 end
 #Collecting the return values of the puts statement would just give you nil,
 #but I'll code your broken method, since that's what the lab says to do.
